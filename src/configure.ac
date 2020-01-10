@@ -1,7 +1,7 @@
 dnl Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.53)
 
-AC_INIT([gnome-icon-theme-extras], [3.12.0],
+AC_INIT([gnome-icon-theme-extras], [3.6.2],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-icon-theme-extras])
 AC_CONFIG_SRCDIR([src/phone-palm-pre.svg])
 

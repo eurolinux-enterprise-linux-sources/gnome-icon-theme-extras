@@ -21,8 +21,6 @@ $(render_sizes): Makefile
 
 render: render-png
 
-all: render
-
 install-data-local:
 	for size in $(render_sizes); do \
 		for file in `cd $(top_builddir)/$(SVGOUTDIR)/$$size; find . -name "*.png"`; do \
