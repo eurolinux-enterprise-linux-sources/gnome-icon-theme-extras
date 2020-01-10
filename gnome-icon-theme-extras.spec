@@ -1,7 +1,7 @@
 Summary: Additional GNOME icons
 Name: gnome-icon-theme-extras
 Version: 3.6.2
-Release: 2%{?dist}
+Release: 3%{?dist}
 #VCS: git:git://git.gnome.org/gnome-icon-theme-extras
 Source0: http://download.gnome.org/sources/gnome-icon-theme-extras/3.6/%{name}-%{version}.tar.xz
 License: CC-BY-SA
@@ -41,6 +41,9 @@ gtk-update-icon-cache %{_datadir}/icons/gnome &>/dev/null || :
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.6.2-3
+- Mass rebuild 2013-12-27
+
 * Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 3.6.2-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
